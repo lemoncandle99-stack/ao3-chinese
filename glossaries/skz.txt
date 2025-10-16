@@ -1,5 +1,5 @@
 // 元数据区
-版本号：1.0.6
+版本号：1.0.7
 维护者：Stay
 更新时间：2025-10-16
 
@@ -7,16 +7,18 @@
 // 成员姓名（包含全名、艺名、本名、昵称等多种形式）
 Bang Chan = 方 灿
 Chan = 灿
-Channie = 灿尼  // 补充昵称形式
+Channie = 灿尼
 Lee Know = 李 旻浩
 Lee Minho = 李 旻浩
 Minho = 旻浩
 Seo Changbin = 徐 彰彬
 Changbin = 彰彬
+Binnie = 彬尼
 Hwang Hyunjin = 黄 铉辰
 Hyunjin = 铉辰
 Han Jisung = 韩 知城
 Han = 韩
+Hannie = 韩尼
 Jisung = 知城
 Felix = 李 龙馥
 Lee Yongbok = 李 龙馥
@@ -26,6 +28,7 @@ Seungmin = 昇玟
 I.N = 梁 精寅
 Yang Jeongin = 梁 精寅
 Jeongin = 精寅
+Innie = 伊恩尼
 // 特定专辑与歌曲名
 NOEASY： noeasy
 MAXIDENT： maxident
