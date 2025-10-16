@@ -1,0 +1,76 @@
+// 元数据区
+版本号：1.0.1
+维护者：Stay
+更新时间：2025-10-16
+
+词条
+// 成员姓名（包含全名、艺名、本名等多种形式）
+Bang Chan = 方 灿
+Chan = 灿
+Lee Know = 李 旻浩
+Lee Minho = 李 旻浩
+Minho = 旻浩
+Seo Changbin = 徐 彰彬
+Changbin = 彰彬
+Hwang Hyunjin = 黄 铉辰
+Hyunjin = 铉辰
+Han Jisung = 韩 知城
+Han = 韩
+Jisung = 知城
+Felix = 李 龙馥
+Lee Yongbok = 李 龙馥
+Yongbok = 龙馥
+Kim Seungmin = 金 昇玟
+Seungmin = 昇玟
+I.N = 梁 精寅
+Yang Jeongin = 梁 精寅
+Jeongin = 精寅
+// 特定专辑与歌曲名
+NOEASY： noeasy
+MAXIDENT： maxident
+5-STAR： 5-star
+Case 143： Case 143
+S-Class： S-Class
+
+通用词条
+// 组合相关通用术语（不区分大小写）
+skz： stray kids
+comeback： 回归
+title track： 主打歌
+b-side： 非主打歌
+fanmeeting： 粉丝见面会
+concert： 演唱会
+music video： 音乐视频
+trailer： 预告
+dance practice： 舞蹈练习室
+vlive： 直播
+fancam： 饭拍
+maknae： 忙内
+leader： 队长
+main dancer： 主舞
+lead vocal： 领唱
+rapper： 说唱者
+producer： 制作人
+
+禁翻词条
+// 保持原文的核心术语
+Stray Kids
+STAY
+SKZ
+JYP
+K-pop
+Mnet
+In the SOOP
+SKZ Code
+SKZ Player
+3RACHA
+Bubble
+Chan's Room
+Lee Know's Playground
+
+正则表达式
+// 处理复数形式和所有格
+SKZ('s)?: SKZ\1
+STAY('s|s)?: STAY\1
+// 处理成员名所有格形式（如Chan's → 灿的）
+(Chan|Minho|Changbin|Hyunjin|Han|Jisung|Felix|Yongbok|Seungmin|Jeongin)('s)?: \1的
