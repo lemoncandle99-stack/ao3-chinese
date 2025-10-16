@@ -1,6 +1,6 @@
 // 元数据区
-版本号：1.0.5
-维护者：SKZ同好
+版本号：1.0.6
+维护者：Stay
 更新时间：2025-10-16
 
 词条
@@ -52,7 +52,6 @@ main dancer： 主舞
 lead vocal： 领唱
 rapper： 说唱者
 producer： 制作人
-// hyung：单独出现时翻译为"哥"（注释单独成行）
 hyung： 哥
 
 禁翻词条
@@ -79,5 +78,3 @@ STAY('s|s)?: STAY\1
 (Chan|Channie|Minho|Changbin|Hyunjin|Han|Jisung|Felix|Yongbok|Seungmin|Jeongin)('s)?: \1的
 // 处理成员名+hyung的组合（包含昵称形式）
 (Minho|Changbin|Hyunjin|Han|Jisung|Felix|Yongbok|Seungmin|Jeongin|Chan|Channie)-hyung：\1哥
-// 处理带连字符的名字+hyung形式
-(Lee-?Minho|Seo-?Changbin|Hwang-?Hyunjin|Han-?Jisung|Lee-?Yongbok|Kim-?Seungmin|Yang-?Jeongin|Bang-?Chan)-hyung：\1哥
