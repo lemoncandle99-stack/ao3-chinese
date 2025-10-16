@@ -1,12 +1,13 @@
 // 元数据区
-版本号：1.0.2
-维护者：Stay
+版本号：1.0.4
+维护者：SKZ同好
 更新时间：2025-10-16
 
 词条
-// 成员姓名（包含全名、艺名、本名等多种形式）
+// 成员姓名（包含全名、艺名、本名、昵称等多种形式）
 Bang Chan = 方 灿
 Chan = 灿
+Channie = 灿尼  // 补充昵称形式
 Lee Know = 李 旻浩
 Lee Minho = 李 旻浩
 Minho = 旻浩
@@ -51,7 +52,7 @@ main dancer： 主舞
 lead vocal： 领唱
 rapper： 说唱者
 producer： 制作人
-hyung： 哥
+hyung： 哥  // 单独出现时翻译为"哥"
 
 禁翻词条
 // 保持原文的核心术语
@@ -73,9 +74,9 @@ Lee Know's Playground
 // 处理复数形式和所有格
 SKZ('s)?: SKZ\1
 STAY('s|s)?: STAY\1
-// 处理成员名所有格形式（如Chan's → 灿的）
-(Chan|Minho|Changbin|Hyunjin|Han|Jisung|Felix|Yongbok|Seungmin|Jeongin)('s)?: \1的
-// 处理成员名+hyung的组合
-(Minho|Changbin|Hyunjin|Han|Jisung|Felix|Yongbok|Seungmin|Jeongin|Chan)-hyung：\1哥
+// 处理成员名所有格形式（如Chan's → 灿的，Channie's → 灿尼的）
+(Chan|Channie|Minho|Changbin|Hyunjin|Han|Jisung|Felix|Yongbok|Seungmin|Jeongin)('s)?: \1的
+// 处理成员名+hyung的组合（包含昵称形式）
+(Minho|Changbin|Hyunjin|Han|Jisung|Felix|Yongbok|Seungmin|Jeongin|Chan|Channie)-hyung：\1哥
 // 处理带连字符的名字+hyung形式
-(Lee Minho|Seo Changbin|Hwang Hyunjin|Han Jisung|Lee Yongbok|Kim Seungmin|Yang Jeongin|Bang Chan)-hyung：\1哥
+(Lee-?Minho|Seo-?Changbin|Hwang-?Hyunjin|Han-?Jisung|Lee-?Yongbok|Kim-?Seungmin|Yang-?Jeongin|Bang-?Chan)-hyung：\1哥
